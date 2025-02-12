@@ -1,0 +1,70 @@
+body {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background: radial-gradient(circle, #1a1a2e, #16213e);
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    color: black;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+}
+
+.buttons {
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 12px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: linear-gradient(to right, #ff512f, #dd2476);
+    color: white;
+    transition: transform 0.2s ease, opacity 0.2s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+    box-shadow: 0 4px 10px rgba(255, 81, 47, 0.4);
+}
+
+.canvas-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    border: 3px solid black;
+    background: #f0f0f0;
+    display: block;
+    margin: 15px auto;
+    border-radius: 10px;
+    cursor: crosshair;
+    transition: box-shadow 0.3s ease;
+}
+
+canvas:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
